@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #c6eaff;
+    color: #333;
+}
+
+.bg-login{
+    background-color: #c6eaff;
+}
+/* Topbar */
+.topbar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.topbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Newsletter Section */
+.newsletter {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.newsletter p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.newsletter-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.newsletter-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.newsletter-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.newsletter-content a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-content a:hover {
+    background-color: #0056b3;
+}
+
+/* Login Section */
+.login-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Register Section */
+.register-section {
+    display: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}

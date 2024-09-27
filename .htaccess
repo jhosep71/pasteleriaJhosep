@@ -1,0 +1,8 @@
+RewriteEngine on
+
+# Excluir send_email.php de la redirección
+RewriteCond %{REQUEST_URI} !^/send_email.php$ [NC]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
